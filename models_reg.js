@@ -16,6 +16,9 @@ const user_schema=mongoose.Schema({
     password:{
         type:String,
         required:true
+    },
+    profile_img:{
+        type:String
     }
 
 });
